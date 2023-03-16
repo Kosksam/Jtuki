@@ -1,0 +1,2 @@
+# Jtuki
+NGINX palvelin Ubuntu
