@@ -1,5 +1,5 @@
 # Jtuki
-<h1 NGINX palvelin Ubuntu h1>
+<h1 NGINX-palvelin h1>
 
 
 Web-palveluita ja niiden kuormituksen tasausta verkon järjestelmään listättiin NGINX-palvelin. Se toimii sekä web-palvelimena että välityspalvelimena (reverse proxy) kahteen muuhun www-palvelimeen.
