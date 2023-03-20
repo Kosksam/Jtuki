@@ -1,10 +1,9 @@
 # Jtuki
-NGINX palvelin Ubuntu
+<h1 NGINX palvelin Ubuntu h1>
 
 
 Web-palveluita ja niiden kuormituksen tasausta verkon järjestelmään listättiin NGINX-palvelin. Se toimii sekä web-palvelimena että välityspalvelimena (reverse proxy) kahteen muuhun www-palvelimeen.
 
-https://github.com/NikoKoskinen/jarjestelmatuki/blob/main/nginx3.png
 
 Organisaation ulkopuolelle näkyväksi web-palvelimeksi määritellään NGINX-palvelin. Palomuurisäännöt mahdollistavat liikenteen koneen http ja https portteihin. Palvelimelle voidaan sijoittaa yksinkertaisia staattisia www-sivuja. Dynaamiset, esim: tietokantaa käyttävät www-sivut on sijoitettu kahdelle identtiselle palvelimelle. NGINX-palvelin jakaa liikenteen tasan näiden kahden palvelimen välillä, jolloin kumpikaan dynaamisista www-palveluista ei tukehdu internetistä tuleviin sivupyyntöihin. suoraa liikennettä internistä näihin kahteen palvelimeen ei sallita.
 Palvelimen asetuksista
