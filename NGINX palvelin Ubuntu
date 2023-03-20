@@ -70,7 +70,7 @@ http {
 
 Taustapalvelimet
 
-Kuormituksen tasausta varten luotiin 2 kpl Apache 2 -webpalvelimia. Ensimmäisessä palvelimessa käyttöjärjestelmänä on Debian 11 ja toisessa Linux Mint 21 Vanessa. Apache 2 -palvelinten konfiguraatiotiedostojen ja www root -hakemistojen polut ilmenevät seuraavasta taulukosta:
+<b> Kuormituksen tasausta varten luotiin 2 kpl Apache 2 -webpalvelimia. Ensimmäisessä palvelimessa käyttöjärjestelmänä on Debian 11 ja toisessa Linux Mint 21 Vanessa. Apache 2 -palvelinten konfiguraatiotiedostojen ja www root -hakemistojen polut ilmenevät seuraavasta taulukosta:
 Palvelin 	Hakemisto tai tiedosto 	Polku
 www1 	www root 	var/www/html
 www1 	geo-hakemisto 	var/www/html/geo
@@ -79,7 +79,7 @@ www1 	port.conf 	/etc/apache2/port.conf
 www2 	www root 	var/www/html
 www2 	geo-hakemisto 	var/www/html/geo
 www2 	apache2.conf 	/etc/apache2/apache2.conf
-www2 	port.conf 	/etc/apache2/port.conf
+www2 	port.conf 	/etc/apache2/port.conf <b>
 
 Molemmat palvelimet käyttävät http-porttina 8080-porttia. Salatun liikenteen https (443) portit on otettu pois käytöstä, koska taustapalvelun liikenteen salaaminen lisää latausviivetta. Tarvittaessa NGINX-palvelimelle voi asentaa varmenteen ja ottaa salauksen käyttöön. Sivustojen ylläpitäjää varten koneisiin asennettiin Webmin-sovellus, joka kuuntelee TCP-porttia 10000.
 
